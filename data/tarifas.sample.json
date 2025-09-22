@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mm-fibra-300",
+    "operador": "masmovil",
+    "plan": "Fibra 300Mb",
+    "precio": 24.9,
+    "velocidadDown": 300,
+    "velocidadUp": 300,
+    "permanenciaMeses": 12
+  },
+  {
+    "id": "pp-movil-20",
+    "operador": "pepephone",
+    "plan": "M\u00f3vil 20GB + ilimitadas",
+    "precio": 12.9,
+    "datos": 20,
+    "minutos": 9999,
+    "permanenciaMeses": 0
+  },
+  {
+    "id": "simyo-fibra-100",
+    "operador": "simyo",
+    "plan": "Fibra 100Mb",
+    "precio": 22.99,
+    "velocidadDown": 100,
+    "velocidadUp": 100,
+    "permanenciaMeses": 0
+  },
+  {
+    "id": "jazztel-fibra-600",
+    "operador": "jazztel",
+    "plan": "Fibra 600Mb",
+    "precio": 29.95,
+    "velocidadDown": 600,
+    "velocidadUp": 600,
+    "permanenciaMeses": 12
+  }
+]

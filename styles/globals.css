@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-gray-50 text-gray-900; }
+.container { @apply max-w-6xl mx-auto; }
+.card { @apply rounded-2xl shadow p-4 bg-white border border-gray-100; }
+.btn { @apply inline-flex items-center justify-center px-4 py-2 rounded-xl font-medium shadow bg-blue-600 text-white; }
+.nav a { @apply px-3 py-2 rounded-lg hover:bg-gray-100; }
+.badge { @apply inline-flex items-center text-xs px-2 py-1 rounded-full bg-gray-100; }
+.table { @apply w-full text-sm; }
+.table th, .table td { @apply border-b px-3 py-2; }

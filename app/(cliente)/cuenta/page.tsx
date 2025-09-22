@@ -1,0 +1,1 @@
+export default function Cuenta(){return <div className='card'>Mi cuenta (placeholder)</div>}

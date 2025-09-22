@@ -1,0 +1,1 @@
+export default function Productos(){return <div className='card'>Tienda (placeholder)</div>}

@@ -1,0 +1,1 @@
+export default function Cl(){return <div className='card'>Clientes (perfiles y contratos)</div>}
