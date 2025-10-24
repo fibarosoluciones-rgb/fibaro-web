@@ -1,14 +1,35 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: light; }
-body { @apply bg-gray-50 text-gray-900; }
-.container { @apply max-w-6xl mx-auto; }
-.card { @apply rounded-2xl shadow p-4 bg-white border border-gray-100; }
-.btn { @apply inline-flex items-center justify-center px-4 py-2 rounded-xl font-medium shadow bg-blue-600 text-white; }
-.nav a { @apply px-3 py-2 rounded-lg hover:bg-gray-100; }
-.badge { @apply inline-flex items-center text-xs px-2 py-1 rounded-full bg-gray-100; }
-.table { @apply w-full text-sm; }
-.table th, .table td { @apply border-b px-3 py-2; }
+:root {
+  color-scheme: dark;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+}
+
+a {
+  @apply text-sky-300 underline-offset-4 transition hover:text-sky-200;
+}
+
+input,
+select,
+textarea {
+  @apply focus:outline-none focus:ring-2 focus:ring-sky-500/50 focus:ring-offset-0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(56, 189, 248, 0.5), rgba(16, 185, 129, 0.5));
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

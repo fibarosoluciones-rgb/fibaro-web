@@ -1,1 +1,0 @@
-export default function C(){return <div className='card'>Comerciales (objetivos y comisiones)</div>}
