@@ -1,1 +1,0 @@
-export default function P(){return <div className='card'>Productos (catálogo propio)</div>}
